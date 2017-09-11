@@ -13,87 +13,13 @@
 </head>
 <body> 
 	<div id="app">
-		<div id="tabs">
-			<el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-			<el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
-			<el-col :span="4">
-				<div class="grid-content bg-purple">
-					<el-menu-item index="1000"><a  id = "logo" style="font-size:35px;">MOREDOC.ORG</a></el-menu-item> 
-				</div>
-			</el-col>
-			<el-col :span="12"><div class="grid-content bg-purple">
-				<el-menu-item index="1">首页</el-menu-item> 
-				<el-submenu index="2">
-					<template slot="title">资源</template> 
-					<el-menu-item index="2-1">实战项目</el-menu-item>
-					<el-menu-item index="2-2">视频教程</el-menu-item> 
-					<el-menu-item index="2-3">优秀网站推荐</el-menu-item> 
-				</el-submenu> 
-				<el-menu-item index="3">
-				<a href="#" >文档</a></el-menu-item>
-			</div></el-col>
-			<el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
-			 
-			</el-menu>
-		</div>
-		<el-row :gutter="20"> <el-col :span="4">
-		<div class="grid-content bg-purple"></div>
-		</el-col> <el-col :span="4">
-		<div class="grid-content bg-purple" id="tree">
-			<el-input placeholder="输入关键字进行搜索" v-model="filterText"> </el-input>
-			<el-tree class="filter-tree" :data="data2" :props="defaultProps"
-				default-expand-all :filter-node-method="filterNode"
-				:highlight-current="true" ref="tree2"> </el-tree>
-		</div>
-		</el-col> <el-col :span="12">
-		<div class="grid-content bg-purple">
-			<h1>String 类</h1>
-			<h3>所在包：<a href="#">java.lang</a></h3>
-			<h4>继承关系：</h4>
-			<el-tree :data="data" :props="defaultProps" @node-click="handleNodeClick" :default-expand-all="true">
-			</el-tree>
-			<h4>所有已实现的接口：</h4>
-			<a href="#">java.io.Serializable</a>&nbsp;&nbsp;<a href="#">java.lang.Comparable&lt;T&gt;</a>&nbsp;&nbsp;
-			<a href="#">java.lang.CharSequence</a>
-			<h4>类(接口)描述：</h4>
-			<a> 字符串是常量，它们的值在创建后不能更改。支持可变字符串字符串缓冲区。因为字符串对象是不变的它们可以共享。 </a>
-			<h4>所有方法：</h4>
-			<el-table :data="tableData5"  stripe border  style="width: 100%"> 
-			<el-table-column type="expand" >
-			<template scope="props">
-				<el-form label-position="left" inline class="demo-table-expand">
-					<el-form-item label="返回类型："> <span>{{props.row.returnType }}</span> 
-					</el-form-item> <el-form-item label="参数："> <span>{{props.row.parameter }}</span> 
-					</el-form-item> <el-form-item label="开始版本："> <span>{{props.row.Since }}</span> 
-					</el-form-item>
-					<br/>
-					 <el-form-item label="抛出异常："> <span>{{props.row.throwE }}</span>
-					</el-form-item> <el-form-item label="详细描述："> <span>{{props.row.desc }}</span> 
-					</el-form-item> 
-				</el-form> 
-			</template> 
-			</el-table-column> 
-			<el-table-column label="返回类型" prop="returnType" width="100"> </el-table-column> 
-			<el-table-column label="方法名" prop="name" width="250"> </el-table-column> 
-			<el-table-column label="概述" prop="outline"> </el-table-column> </el-table>
-		</div>
-		</el-col> <el-col :span="4">
-		<div class="grid-content bg-purple"></div>
-		</el-col> </el-row>
-		<el-card class="box-card" id="foot">
-		<div style="font: 12px Tahoma; margin: 0px auto; text-align: center; color: #EEE9E9;">
-			<div>
-				Copyright &copy; &nbsp;&nbsp;2017&nbsp; <a
-					href="http://www.gitor.org" style="color: #CDC9C9">www.gitor.org</a>
-				ALL RIGHT RESERVED<br /> 联系邮箱：1@gitor.org  QQ群：253540430<br /> 
-				<a href="#" style="color: #CDC9C9">反馈建议</a> &nbsp;&nbsp;
-				ICP:<a href="http://www.gitor.org" style="color: #CDC9C9">粤ICP备0000001</a><br />
-				<a style="color: #CDC9C9">声明：本网站所有内容均来自网络收集，部分本网站自行翻译，目的是帮助大家更好的学习；但本网站不能保证内容的正确性，并不为此负责；如果网站内容侵犯了您的个人权益，请联系站长处理；如发现错漏，还望及时指出纠正！</a>
-			</div>
-			<!-copyright	end-->
-		</div>
-		</el-card>
+		<el-row :gutter="10">
+		  <el-col :xs="8" :sm="6" :md="4" :lg="3"><div class="grid-content bg-purple"></div></el-col>
+		  <el-col :xs="4" :sm="6" :md="8" :lg="9"><div class="grid-content bg-purple-light"></div></el-col>
+		  <el-col :xs="4" :sm="6" :md="8" :lg="9"><div class="grid-content bg-purple"></div></el-col>
+		  <el-col :xs="8" :sm="6" :md="4" :lg="3"><div class="grid-content bg-purple-light"></div></el-col>
+		</el-row>
 	</div>
-	<script src="index1.js"></script>
+	<!--<script src="index1.js"> --> </script>
 </body>
 </html>
