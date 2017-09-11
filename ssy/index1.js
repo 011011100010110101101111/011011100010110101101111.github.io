@@ -6,7 +6,7 @@ var vm = new Vue({
 		activeIndex: '1',
 		data2: [{
 			id: 1,
-			label: 'java',
+			label: '星期一',
 			children: [{
 				id: 4,
 				label: 'lang',
@@ -26,7 +26,7 @@ var vm = new Vue({
 			}]
 		}, {
 			id: 1,
-			label: 'java',
+			label: '星期二',
 			children: [{
 				id: 4,
 				label: 'lang',
@@ -46,7 +46,7 @@ var vm = new Vue({
 			}]
 		}, {
 			id: 1,
-			label: 'java',
+			label: '星期三',
 			children: [{
 				id: 4,
 				label: 'lang',
