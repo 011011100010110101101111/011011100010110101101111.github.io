@@ -46,7 +46,7 @@
 	<body>
 	<div class="fh5co-loader"></div>
 	<div id="page">	
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(../images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(../images/ssy.png);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -184,6 +184,7 @@
 									<span class="company">早上</span>
 									<span class="company">下午</span>
 									<span class="company">晚上</span>
+									<p>19:00-20:30  英通教育  象棋入门班（10月12开课）</p>
 								</div>
 							</div>
 						</li>
