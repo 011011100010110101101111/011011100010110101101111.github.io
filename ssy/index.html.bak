@@ -127,30 +127,14 @@
 									<span class="company">2017/09/11</span>
 								</div>
 								<div class="timeline-body">
-									<table class="table" align="center">
-									  <thead>
-										<tr >
-										  <th>时点</th>
-										  <th>时间</th>
-										  <th>地点</th>
-										  <th>班级</th>
-										</tr>
-									  </thead>
-									  <tbody align="left">
-										<tr>
-										  <td>早上</td>
-										  <td>10:00-12:00</td>
-										  <td>五羊小学</td>
-										  <td>1</td>
-										</tr>
-										<tr>
-										  <td>3</td>
-										  <td>4</td>
-										  <td>2</td>
-										  <td>1</td>
-										</tr>
-									  </tbody>
-									</table>
+									<span class="company">早上</span>
+									<p>09:40-10:20  五羊小学  象棋一年三班</p>
+									<p>10:30-11:10  五羊小学  象棋一年一班</p>
+									<p>11:10-12:00  五羊小学  象棋一年二班</p>
+									<span class="company">下午</span>
+									<p>15:30—17:00  景泰小学  象棋入门</p>
+									<span class="company">晚上</span>
+									<p>无</p>
 								</div>
 							</div>
 						</li>
@@ -164,7 +148,9 @@
 								<div class="timeline-body">
 									<span class="company">早上</span>
 									<span class="company">下午</span>
+									<p>16:00-17:30  坑口小学（四季校区）</p>
 									<span class="company">晚上</span>
+									<p>19:00-20:30  英通教育  围棋加强2班（9月12开课）</p>
 								</div>
 							</div>
 						</li>
