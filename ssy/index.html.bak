@@ -83,11 +83,11 @@
 			<div class="row">
 				<div class="col-md-4">
 					<ul class="info">
-						<li><span class="first-block">Full Name:</span><span class="second-block">沈淑媛</span></li>
+						<li><span class="first-block">Full Name:</span><span class="second-block">沈淑媛  </span></li>
 						<li><span class="first-block">Phone:</span><span class="second-block">+86 11111111111</span></li>
 						<li><span class="first-block">Email:</span><span class="second-block">2@gitor.org</span></li>
 						<li><span class="first-block">Website:</span><span class="second-block">www.gitor.org/ssy</span></li>
-						<li><span class="first-block">Address:</span><span class="second-block">Guangdong,Guangzhou,China</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">Guangzhou,China</span></li>
 					</ul>
 				</div>
 				<div class="col-md-8">
@@ -111,7 +111,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Resume</h2>
+					<h2>我的课程</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -198,8 +198,11 @@
 								</div>
 								<div class="timeline-body">
 									<span class="company">早上</span>
+									<p>09:30-10:00  晓港湾幼儿园  象棋中1</p>
+									<p>10:00-10:30  晓港湾幼儿园  象棋中2</p>
 									<span class="company">下午</span>
 									<span class="company">晚上</span>
+									<p>19:00-20:30  文化  象棋入门1班（3号室）</p>
 								</div>
 							</div>
 						</li>
@@ -212,7 +215,11 @@
 								</div>
 								<div class="timeline-body">
 									<span class="company">早上</span>
+									<p>09:00-10:30  儿童  象棋初级2-1班（1号室）</p>
+									<p>10:40-12:10  儿童  象棋初级1-2班（1号室）</p>
 									<span class="company">下午</span>
+									<p>19:00-20:30  儿童  围棋加强3班（2号室）</p>
+									<p>19:00-20:30  儿童  围棋入门3班（2号室）</p>
 									<span class="company">晚上</span>
 								</div>
 							</div>
@@ -226,7 +233,10 @@
 								</div>
 								<div class="timeline-body">
 									<span class="company">早上</span>
+									<p>09:00-10:30  文化  围棋加强6班（7号室）</p>
 									<span class="company">下午</span>
+									<p>14:00-15:30  黄埔  围棋入门五班</p>
+									<p>15:50-17:20  黄埔  象棋入门3班（1号）</p>
 									<span class="company">晚上</span>
 								</div>
 							</div>
@@ -253,8 +263,8 @@
 								<i class="icon-paintbrush"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Web Design</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+								<h3>象棋</h3>
+								<p>象棋，亦作“象碁”、中国象棋（英文名Chinese chess），中国传统棋类益智游戏，在中国有着悠久的历史，先秦时期已有记载。属于二人对抗性游戏的一种，由于用具简单，趣味性强，成为流行极为广泛的棋艺活动.</p>
 							</div>
 						</div>
 					</div>
@@ -265,8 +275,8 @@
 								<i class="icon-briefcase"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Branding</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+								<h3>围棋</h3>
+								<p>围棋，一种策略性两人棋类游戏，中国古时称“弈”，西方名称“Go”。流行于东亚国家（中、日、韩、朝），属琴棋书画四艺之一。围棋起源于中国，传为帝尧所作，春秋战国时期即有记载。隋唐时经朝鲜传入日本，流传到欧美各国。围棋蕴含着中华文化的丰富内涵，它是中国文化与文明的体现。</p>
 							</div>
 						</div>
 
@@ -277,7 +287,7 @@
 								<i class="icon-search"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Analytics</h3>
+								<h3>国际象棋</h3>
 								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
 							</div>
 						</div>
@@ -293,7 +303,7 @@
 								<i class="icon-bargraph"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Web Developent</h3>
+								<h3>五子棋</h3>
 								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
 							</div>
 						</div>
@@ -327,40 +337,37 @@
 			</div>
 		</div>
 	</div>
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
-
-	<div id="fh5co-skills" class="animate-box">
-		<div class="container">
+   		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Skills</h2>
+					<h2>我的能力</h2>
 				</div>
 			</div>
 			<div class="row row-pb-md">
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
+					<div class="chart" data-percent="95"><span><strong>围棋</strong>95%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
+					<div class="chart" data-percent="93"><span><strong>象棋</strong>93%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>
+					<div class="chart" data-percent="90"><span><strong>国际象棋</strong>90%</span></div>
 				</div>
 
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>
+					<div class="chart" data-percent="89"><span><strong>五子棋</strong>89%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>
+					<div class="chart" data-percent="85"><span><strong>围棋</strong>85%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>
+					<div class="chart" data-percent="90"><span><strong>中国象棋</strong>90%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>Ruby</strong>85%</span></div>
+					<div class="chart" data-percent="85"><span><strong>围棋</strong>85%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>
+					<div class="chart" data-percent="90"><span><strong>五子棋</strong>90%</span></div>
 				</div>
 			</div>
 			<div class="row">
@@ -619,7 +626,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary">
+					<input type="submit" value="Send Message" class="btn btn-primary" onclick="alert('暂不可用')">
 				</div>
 
 			</form>	
