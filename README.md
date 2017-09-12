@@ -1,3 +1,3 @@
 # gitors.github.io
 
-##  first commit test
+##  this is page of myself! you can know me more with this page !
