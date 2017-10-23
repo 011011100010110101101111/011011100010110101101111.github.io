@@ -1,8 +1,8 @@
-# gitor.org
+# os.gitor.org
 
 ##  this is page of myself! you can know me more with this page !
-- 本项目为html页面，作为本人个人简历，将不断更新
-- 预览地址：<a href = "https://www.gitor.org">gitor.org</a>
+- 本项目为html页面，作为gitor 各项目文档，项目演示使用
+- 我的博客：<a href = "https://www.gitor.org">gitor.org</a>
 - 我的github地址：<a href="https://github.com/gitors" target="_black">https://github.com/gitors</a>
 - 我的oschina地址：<a href="https://gitee.com/coderlwl" target="_black">https://gitee.com/coderlwl</a>
 
