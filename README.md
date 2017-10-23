@@ -1,6 +1,6 @@
 # os.gitor.org
 
-##  this is page of myself! you can know me more with this page !
+##  os.gitor.org 的静态站点
 - 本项目为html页面，作为gitor 各项目文档，项目演示使用
 - 我的博客：<a href = "https://www.gitor.org">gitor.org</a>
 - 我的github地址：<a href="https://github.com/gitors" target="_black">https://github.com/gitors</a>
