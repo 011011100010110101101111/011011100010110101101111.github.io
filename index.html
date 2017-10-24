@@ -4,24 +4,16 @@
 <meta charset="utf-8"/>
 <title>Marked in the browser</title>
 <link rel="Shortcut Icon" href="favicon.ico" />
-<script src="/lib/marked-master/marked.min.js"></script>
+<script src="http://http//www.bootcdn.cn/marked/"></script>
 </head>
 <body>
 	<div id="content"></div>
-	<script>
-    var marked = require('marked');
-marked.setOptions({
-  renderer: new marked.Renderer(),
-  gfm: true,
-  tables: true,
-  breaks: false,
-  pedantic: false,
-  sanitize: false,
-  smartLists: true,
-  smartypants: false
-});
+<script>
+        hljs.initHighlightingOnLoad(); #实例化高亮
+        $(document).ready(function(){
+            $("#content").html(marked({$html})); #此处的$html代指json数据，详情看后面
+        })
+</script>
 
-console.log(marked('I am using __markdown__.'));
-	</script>
 </body>
 </html>
