@@ -40,17 +40,18 @@
 <div id="header" class="text-center">MarkDown解析器</div>
 <div class="container">
     <div class="row">
-        <div class="col-sm-6 col-lg-6 col-md-6">
+  <!--      <div class="col-sm-6 col-lg-6 col-md-6">
             <textarea id="md" class="form-control"  placeholder="请输入Markdown代码"></textarea>
-        </div>
+        </div> -->
         <div id="html" class="col-lg-6 col-sm-6 col-md-6"></div>
     </div>
 </div>
 </body>
 <script>
-    $("#md").on("keyup blur",function () {
+ /*   $("#md").on("keyup blur",function () {
         $('#html').html(marked($("#md").val()))
-    })
+    }) */
+	$('#html').load('/README.md');
 </script>
 
 </html>
