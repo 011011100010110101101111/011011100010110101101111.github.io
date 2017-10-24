@@ -1,19 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<title>Marked in the browser</title>
-<link rel="Shortcut Icon" href="favicon.ico" />
-<script src="http://http//www.bootcdn.cn/marked/"></script>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+ 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+ 
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="lib\marked-mastermarked.min.js"></script>
+    <style>
+        #header{
+            width: 100%;
+            height: 40px;
+            background: #2e6da4;
+            line-height: 40px;
+            color: white;
+            font-size: 20px;
+            margin-bottom: 60px;
+        }
+        #md,#html{
+            height: 510px;
+        }
+        #md{
+            resize: none;
+        }
+        #html{
+            border: solid 1px darkgrey;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-	<div id="content"></div>
+<div id="header" class="text-center">MarkDown解析器</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-lg-6 col-md-6">
+            <textarea id="md" class="form-control"  placeholder="请输入Markdown代码"></textarea>
+        </div>
+        <div id="html" class="col-lg-6 col-sm-6 col-md-6"></div>
+    </div>
+</div>
+</body>
 <script>
-        hljs.initHighlightingOnLoad(); #实例化高亮
-        $(document).ready(function(){
-            $("#content").html(marked({$html})); #此处的$html代指json数据，详情看后面
-        })
+    $("#md").on("keyup blur",function () {
+        $('#html').html(marked($("#md").val()))
+    })
 </script>
 
-</body>
 </html>
