@@ -23,4 +23,5 @@ dist/
 nbdist/
 .nb-gradle/
 ### my self ### 
+.DS_Store 
 
