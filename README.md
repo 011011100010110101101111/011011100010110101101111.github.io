@@ -1,12 +1,3 @@
-# os.gitor.org
-
-##  about os.gitor.org 
-- 静态站点
-- 本项目为html页面，作为本人存储并展示 各项目文档，展示收集整理的学习资料而用
-- 本项目内容已经放在gitpage 上并绑定了个性域名，
-- 根目录地址：[os.gitor.org](http://os.gitor.org)
-- 书籍收集目录：[os.gitor.org/book](http://os.gitor.org/book)
-- 文档目录：[os.gitor.org/doc](http://os.gitor.org/doc)
 
 ## about me
 - 我的博客：<a href = "https://www.gitor.org">gitor.org</a>
